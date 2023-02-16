@@ -8,13 +8,14 @@ import { useSelector } from 'react-redux'
 import { selectCountry, selectFilteredCountry } from './features/countrySlice'
 import { selectRegion } from './features/filterSlice'
 import FullScreenCard from './components/fullScreenCard/FullScreenCard'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 const App = () => {
   const filteredCountries = useSelector(selectFilteredCountry)
   const countries = useSelector(selectCountry)
   const regionFilter = useSelector(selectRegion)
   return (
-    <main>
+    <Router>
       <NavBar />
       <section className="flexRow searchAndFilter">
         <SearchBar />
@@ -25,8 +26,7 @@ const App = () => {
         allCountries={countries}
         regionFilter={regionFilter}
       />
-      {/* <FullScreenCard /> */}
-    </main>
+    </Router>
   )
 }
 
