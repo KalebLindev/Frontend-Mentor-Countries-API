@@ -1,0 +1,21 @@
+.userSearch {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+  border-style: none;
+  width: 400px;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+}
+
+.userSearch:focus {
+  outline: none;
+}
+
+.userSearch::placeholder {
+  color: rgba(255, 255, 255, 0.906);
+}

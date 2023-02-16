@@ -1,0 +1,46 @@
+.cardSection {
+  color: white;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: hsl(209, 23%, 22%);
+  margin-bottom: 50px;
+}
+
+.card .textSection {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card .textSection h2 {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.cardSection img {
+  width: 280px;
+  height: 140px;
+  /* overflow: hidden; */
+  background-color: hsl(209, 23%, 22%);
+}
+
+.cardKey {
+  font-weight: 600;
+}
+
+.cardKey span {
+  color: hsla(0, 0%, 100%, 0.818);
+  font-weight: 400;
+}
