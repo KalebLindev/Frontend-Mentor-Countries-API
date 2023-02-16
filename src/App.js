@@ -26,7 +26,6 @@ const App = () => {
         allCountries={countries}
         regionFilter={regionFilter}
       />
-      {/* <FullScreenCard /> */}
     </Router>
   )
 }
