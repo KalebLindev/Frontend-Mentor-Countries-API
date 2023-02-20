@@ -7,7 +7,6 @@ import SearchBar from './components/searchBar/SearchBar'
 import { useSelector } from 'react-redux'
 import { selectCountry, selectFilteredCountry } from './features/countrySlice'
 import { selectRegion } from './features/filterSlice'
-import FullScreenCard from './components/fullScreenCard/FullScreenCard'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 const App = () => {
